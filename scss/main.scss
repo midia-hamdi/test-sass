@@ -12,4 +12,42 @@ body {
     color: $dark-color;
     font-family: $font-family;
     line-height: 1.5;
+    
 }
+
+header{
+    background: $dark-color;
+    color: #fff;
+    padding: 1rem;
+
+    h1{
+        text-align: center;
+    }
+}
+
+
+.section{
+    padding: 3rem;
+
+    h3{
+        font-size: 2rem;
+    }
+    
+    &-a{
+        background-color: $primary-color;
+        color: #fff ;
+    }
+
+    &-b{
+        background-color: $secondary-color;
+        color: #fff ;
+    }
+}
+
+a{
+    color: $dark-color;
+    &:hover{
+        color: aqua;
+    }
+}
+
