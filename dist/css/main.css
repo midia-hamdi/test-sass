@@ -30,3 +30,28 @@ a {
   color: #333; }
   a:hover {
     color: aqua; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  margin-top: 1rem;
+  text-decoration: none; }
+
+.btn-light {
+  background: #f4f4f4;
+  color: black; }
+  .btn-light:hover {
+    --webki-transform: $property;
+    --ms-transform: $property;
+    --o-transform: $property;
+    transform: rotate(15deg); }
+
+.btn-dark {
+  background: #333;
+  color: #fff; }
+  .btn-dark:hover {
+    --webki-transform: $property;
+    --ms-transform: $property;
+    --o-transform: $property;
+    transform: rotate(-15deg); }
